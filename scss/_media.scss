@@ -1,0 +1,847 @@
+  
+    
+     @media(max-width:1190px){   
+         
+        //-- review --//
+        
+     .review__slider .slick-prev {
+           left: 5px;
+      }  
+       
+      .review__slider .slick-next {
+        right: 5px;
+      }
+
+     } 
+
+    
+    @media(max-width:1163px) { 
+    
+    //-- popular-product --// 
+     
+    .popular-product__title {
+        margin: 85px 0 77px;
+    } 
+     
+    .popular-product__item-img {
+        position: absolute;
+        top: -23px;
+        left: -5px;
+    } 
+     
+    .popular-product__item-title {
+        font-size: 28px;
+    }
+
+  }
+    
+
+  @media(max-width:1145px) {
+
+      //-- header  --//  
+
+      .header__top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 45px 0;
+          margin-bottom: 0;
+      }
+
+      .header__top .logo {
+          position: initial;
+          margin-left: 10px;
+      }
+
+      .header__top .menu__list {
+          margin-right: 30px;
+      }
+
+      .header__top .menu__list .menu__item+.menu__item {
+          margin-left: 39px;
+      }
+
+
+      .header__top .menu__list .menu__item--bigger-distance {
+          margin-right: 0;
+      }
+        
+      .header__main {
+        margin-bottom: 130px;
+    } 
+
+      .header__main-img {
+          display: none;
+      }
+
+      .header__main-wrapper {
+          background-image: url('../images/header/header-main-decor.png');
+          background-repeat: no-repeat;
+          //background-size: cover;  
+          background-position: right;
+          padding: 67px 0;
+      } 
+       
+      .header__items{ 
+        flex-wrap: wrap; 
+        justify-content: center;
+      } 
+       
+      .header__item-basis{ 
+        margin: 35px;
+      }
+  } 
+   
+   
+  @media(max-width:1115px) {
+
+    //-- header  --//     
+     
+    .header__items {
+        margin-bottom: 55px;
+    }
+      
+    .coffee-for-you__title {
+        margin: 197px 0 37px;
+    }  
+     
+    .coffee-for-you__btn {
+        margin-bottom: 97px;
+    } 
+     
+     //--  buy-machine  --//
+
+     .buy-machine__inner{ 
+        flex-wrap: wrap;
+     }  
+      
+     .buy-machine__content{ 
+        text-align: center; 
+        width: 100%;
+     } 
+      
+     .buy-machine__title {
+        max-width: 100%; 
+        margin: 50px 0 34px;
+    } 
+     
+     .buy-machine__text{ 
+         margin: 0 auto;
+     } 
+      
+     .buy-machine__btn {
+        margin: 27px 0 52px;
+    }
+      
+     .buy-machine__img-wrapper{ 
+         margin: 0 auto;
+     }  
+       
+    //-- best-product --//
+      
+    .best-product__title {
+        margin: 59px 0 47px; 
+        text-align: center;
+    } 
+     
+    .best-product__cards{ 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        margin: 0 auto 80px;
+    } 
+     
+    .best-product__card{ 
+        margin: 18px;
+    } 
+     
+    .best-product__card-btn{ 
+        margin: 0 auto 54px;  
+        display: block; 
+        width: 209px;
+    }  
+     
+    //-- blog --//  
+
+    .blog__items{ 
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+     
+    .blog__item{ 
+        margin: 15px;
+    } 
+     
+    .blog__btn {
+        margin: 55px auto 50px;
+    }
+
+}
+  
+ 
+@media(max-width: 1069px) {   
+ 
+    // -- popular-product --// 
+     
+    .popular-product__items {
+        display: grid;  
+        grid-row-gap: 53px;
+        grid-column-gap: 50px;
+    } 
+
+}  
+ 
+@media(max-width: 1007px) {   
+ 
+    // -- popular-product --//   
+
+    .popular-product__title {
+        margin: 75px 0 73px;
+    }  
+     
+    .popular-product__items {
+        display: grid;
+        grid-row-gap: 45px;
+        grid-column-gap: 40px;
+    }
+     
+    .popular-product__item-btn {
+        margin: 75px auto 57px;
+    }  
+      
+     
+ } 
+
+ 
+@media(max-width: 999px) {  
+      
+     //-- header --// 
+
+    .header__main {
+        margin-bottom: 105px;
+    }
+
+    //-- coffee-for-you --//       
+     
+    .coffee-for-you__title {
+        margin: 157px 0 37px;
+    }   
+     
+    .coffee-for-you__btn {
+        margin-bottom: 77px;
+    }  
+      
+    //--  popular-product --//
+
+    .popular-product__items {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 80px; 
+    }  
+     
+    .popular-product__item {
+       width: 100%;
+        max-width: 475px;
+        margin: 0 auto;
+    }
+
+} 
+ 
+@media(max-width: 950px) {    
+     
+    //-- contacts --//
+        
+    .contacts__inner{ 
+        flex-wrap: wrap; 
+        justify-content: center;
+    } 
+     
+    .contacts__link, 
+    .contacts__form{ 
+         margin: 30px;
+    }  
+     
+    .contacts__link-img {
+        position: absolute;
+        left: 3px;
+        top: -4px;
+    }
+
+}
+
+
+  @media(max-width: 830px) {
+
+      //-- header  --//     
+
+      .header__top {
+          padding: 30px 0;
+      }
+
+      .header__top .menu__list {
+          display: block;
+          position: absolute;
+          top: 100px;
+          left: 0;
+          right: 0;
+          background-color: #d48a5c;
+          text-align: center;
+          padding: 20px 0;
+          transition: all .5s;
+          z-index: 50;
+          transform: translateY(-500px);
+          margin-right: 0;
+      }
+
+      .menu__list.menu__list--active {
+          transform: translateY(0);
+      }
+
+      .header__top .menu__list .menu__item+.menu__item {
+          margin-left: 0;
+      }
+
+      .menu__item {
+          margin: 15px 0;
+      }
+
+      .header__top .menu__btn {
+          display: block;
+      } 
+       
+      .coffee-for-you__title {
+        margin: 130px 0 37px;
+     }  
+     
+    .coffee-for-you__btn {
+        margin-bottom: 61px;
+    }  
+     
+    //--  blog --//
+     
+    .blog__title {
+        margin-bottom: 47px;
+        font-size: 50px; 
+        line-height: 57px;
+    } 
+     
+    //-- footer --//      
+     
+    .footer {
+        background: #fff;
+        padding-top: 40px;
+    }
+     
+    .footer-top{ 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        margin-bottom: 70px;
+    }  
+     
+    .footer-top__logo {
+        margin: 0 auto 9px;
+    }
+     
+    .footer-top__logo-text, 
+    .footer-top__social{ 
+        margin: 40px;
+    }
+
+  }
+ 
+  @media(max-width: 773px) {
+
+    // -- header --// 
+
+    .header__main {
+        margin-bottom: 90px;
+    } 
+       
+    //-- buy-machine --// 
+     
+    .buy-machine__inner{ 
+        margin: 0;
+    }
+
+    .buy-machine__title { 
+        font-size: 47px;
+        line-height: 64px; 
+        margin: 52px 0 34px;
+    } 
+     
+    .buy-machine__btn {
+        margin: 37px 0 52px;
+    } 
+     
+    //-- footer  --//
+
+    .footer-top {
+        margin-bottom: 7px;
+    }
+
+} 
+
+
+  @media(max-width: 730px) {
+
+      // -- header --// 
+
+      .header__main-wrapper {
+          background-image: none;
+      }
+      
+    //-- popular-product --//
+
+      .popular-product__title {
+        margin: 70px 0;
+    }  
+     
+     
+     //----  fancybox -----//
+
+     .fancybox-slide { 
+        padding: 10px;
+    }  
+      
+    // -- review title --//
+
+    .review__title{ 
+        font-size: 49px;
+        line-height: 58px;
+    }
+
+  }
+ 
+   
+  @media(max-width: 630px) {
+
+    // -- coffee-for-you --//   
+     
+    .coffee-for-you__title {
+        margin: 107px 0 20px;
+    }   
+     
+    .coffee-for-you__btn {
+        margin-bottom: 55px;
+    }  
+     
+    // --  reviews --//   
+     
+    .review__slider-wrapper{ 
+        margin-bottom: 45px;
+    }
+     
+ }
+
+
+
+
+  @media(max-width: 590px) {
+
+      // -- header --// 
+
+      .header__main-wrapper {
+          padding: 23px 0;
+      }
+
+      .header__main-title {
+          line-height: 54px;
+      } 
+        
+      // -- coffee-for-you__title --//  
+
+      .coffee-for-you__title {
+        margin: 100px 0 17px; 
+        font-size: 49px;
+        line-height: 63px;
+     }  
+      
+       //-- popular-product --//
+
+       .popular-product__title {
+        margin: 55px 0;
+    } 
+     
+    .popular-product__item-title {
+        font-size: 25px;
+    }  
+     
+     // --  reviews --//   
+      
+     .review__title { 
+        font-size: 44px;
+       line-height: 53px;
+     } 
+      
+     .reservation__booking {
+       padding: 0 10px;
+    }
+     
+    //-- blog -- // 
+
+    .blog__title {
+        margin-bottom: 30px;
+    } 
+
+  } 
+   
+   
+  @media(max-width: 545px) {  
+      
+    //-- review --//
+
+    .review__title{ 
+        margin: 40px 0 21px; 
+    } 
+     
+    //-- footer --//
+     
+    .footer {
+        padding-top: 37px;
+    } 
+
+  } 
+
+
+  @media(max-width: 478px) {
+
+      // -- header --// 
+
+      .header__main-title {
+          font-size: 40px;
+      }
+
+      .header__main-text {
+          margin-bottom: 40px;
+      } 
+       
+     // -- coffee-for-you__title --//    
+      
+     .coffee-for-you__title {
+        margin: 87px 0 17px;
+        font-size: 48px;
+        line-height: 54px;
+     } 
+      
+     .coffee-for-you__subtitle {
+        max-width: 671px;
+        margin: 0 auto 18px;
+    } 
+     
+      //-- popular-product --//
+
+    .popular-product__item-title {
+        font-size: 22px;
+    }  
+     
+    //-- buy-machine --//
+     
+    .buy-machine__text {
+        margin: 0 auto 10px;
+      } 
+        
+    //-- best-product --//
+
+    .best-product__title { 
+         font-size: 49px;
+         line-height: 59px; 
+         margin: 65px 0 37px;
+      } 
+         
+    //-- footer --// 
+
+      .footer-top {
+        margin-bottom: 40px;
+      } 
+
+
+  }
+       
+      @media(max-width: 447px) {
+
+        // -- header --// 
+
+        .header__item-basis{ 
+              
+            margin: 35px 0; 
+        } 
+         
+         //-- popular-product --//
+
+    .popular-product__item-title {
+        font-size: 21px;
+    } 
+     
+    .popular-product__item-img {
+        position: absolute;
+        top: 1px;
+        left: -2px;
+        width: 125px;
+        height: 125px;
+     } 
+      
+       
+    // -- buy-machine --// 
+
+     .buy-machine__title {
+        font-size: 45px;
+        line-height: 59px; 
+     } 
+       
+    //-- best-product --//
+
+     .best-product__card{ 
+        margin: 18px 0; 
+       }  
+        
+    //--  blog --//  
+        
+       .blog__title {
+        margin-bottom: 27px;
+        font-size: 43px;
+        line-height: 52px;
+     }    
+      
+     .contacts__inner {  
+
+        padding-top: 75px;  
+
+       } 
+        
+        //-- footer --// 
+
+      .footer-top {
+        margin-bottom: 30px;
+      } 
+       
+     } 
+
+
+      @media(max-width: 397px) {
+
+          // -- header --// 
+
+          .header__main-wrapper {
+              padding: 0;
+          } 
+           
+          .header__item-basis {
+            margin: 25px 0; 
+            max-width: 350px;
+        } 
+         
+        .header__first-item,  
+        .header__second-item,  
+        .header__third-item {
+           position: initial;
+       }   
+        
+    //-- coffee-for-you --//
+        
+       .coffee-for-you__title {
+        margin: 80px 0 17px; 
+      }  
+        
+      //-- popular-product --//
+ 
+  
+      .popular-product__title {   
+         font-size: 50px; 
+         line-height: 59px;
+      }
+
+      .popular-product__item-title {
+        width: 197px; 
+        margin-left: auto; 
+     } 
+      
+     .popular-product__item-img {
+        position: absolute;
+        top: 15px;
+        left: 5px; 
+    } 
+        
+
+    //-- buy-machine__title --//
+     
+    .buy-machine__title {
+        font-size: 40px;
+        line-height: 52px;
+      } 
+        
+       
+    //--  review --//
+       
+      .review__slider-wrapper {
+        margin-bottom: 30px;
+      } 
+       
+      .review__title {
+        margin: 25px 0 21px;
+    }  
+     
+    //-- blog --//
+        
+     .blog__item-text {
+        padding: 19px 27px; 
+      } 
+        
+    //-- footer --// 
+
+      .footer-top__logo-text,  
+      .footer-top__social{ 
+        margin: 30px 10px;
+      }
+
+    }
+
+      @media(max-width: 370px) {
+
+          // -- header --//  
+           
+          .header__main {
+            margin-bottom: 70px;
+         }
+
+          .header__main-wrapper {
+              padding-top: 10px;
+          }
+
+          .header__main-title {
+              font-size: 30px;
+              line-height: 50px;
+          }  
+           
+        //-- blog --//
+           
+          .blog__title {
+            font-size: 41px;
+            line-height: 49px;
+        } 
+          
+        //-- footer --//
+
+        .footer-top__logo {
+            margin: 0px auto 15px;
+        }
+
+      }
+
+      @media(max-width: 357px) {
+
+          // -- header --//   
+           
+          .header__main {
+            margin-bottom: 45px;
+         }
+           
+          .header__main-title {
+              font-size: 30px;
+              line-height: 45px;
+          }
+
+          .header__main-button-first {
+              margin-right: 7px;
+          }
+
+          .header__main-button-first{
+              padding: 10px;
+          } 
+           
+          .header__main-button-second { 
+            padding: 10px 17px;
+          } 
+           
+            
+        //-- coffee-for-you  --//
+
+          .coffee-for-you__title {
+            margin: 87px 0 17px;
+            font-size: 45px; 
+        } 
+          
+        //-- review --//
+
+        .review__title {
+            margin: 30px 0 15px; 
+            font-size: 41px;
+            line-height: 49px;
+        } 
+         
+        .review__item-text {
+            margin: 0 auto 30px;
+        } 
+         
+        .review__btn {
+            margin-bottom: 35px;
+        } 
+
+        //--  reservation  --// 
+
+        .reservation__booking-inner {
+            margin: 33px auto 0;
+        }  
+         
+         //-- blog --//
+         
+        .blog__item-text {
+            padding: 19px 15px;
+        } 
+         
+         
+         //-- footer --// 
+
+      .footer-top__logo-text,  
+      .footer-top__social{ 
+        margin: 25px 10px;
+      }
+
+      } 
+       
+      @media(max-width: 347px) {
+           
+        //-- popular-product --//
+
+          .popular-product__items {
+              grid-row-gap: 59px;
+          } 
+           
+          .popular-product__item {
+            padding: 0px 10px;
+        } 
+         
+        .popular-product__item-img {
+            position: absolute;
+            top: 15px;
+            left: -5px;
+        } 
+         
+        .popular-product__title {
+            font-size: 45px;
+            line-height: 55px; 
+            margin: 50px 0;
+        } 
+          
+        //-- best-product --//
+   
+        .best-product__cards {
+            margin: 0 auto 70px;
+        } 
+         
+        .best-product__card {
+            padding: 19px;
+        }  
+          
+        //-- footer --// 
+         
+        .footer {
+            padding-top: 21px;
+        }
+
+        .footer-bottom__text{ 
+            font-size: 15px;
+        }
+
+    }
+
+  

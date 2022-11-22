@@ -1,0 +1,48 @@
+  
+  
+ 
+  html {  
+    scroll-behavior: smooth;  
+ }
+      
+
+ body {
+  // min-height:100vh; 
+    color: $main-text-color; 
+    background-color: #F7F2EE;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400; 
+} 
+  
+.container{  
+  max-width: 1170px; 
+  margin: 0 auto; 
+  padding: 0 15px;  
+ //border: 1px solid green; 
+  border: 1px solid transparent;
+}  
+
+
+.main-btn-animation{ 
+  border: 1px solid #D48A5C;  
+  display: inline-block; 
+  transition: all .3s;  
+  cursor: pointer; 
+  color: $main-text-color;
+  &:hover{ 
+      color:#FFF; 
+      background: #232020; 
+      border: 1px solid #232020;  
+  }
+} 
+ 
+ 
+.main-title{ 
+  @extend %zxool-xiaoWei-400; 
+  font-size: 55px; 
+  color: $main-title-color;  
+  line-height: 70px;
+}
